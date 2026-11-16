@@ -1,6 +1,6 @@
-import mysql from "mysql12/promisse";
+import mysql2 from "mysql2/promisse";
 
-const conexao = mysql.createPool({
+const conexao = mysql2.createPool({
     host: process.env.db_host,
     port: number(process.env.db_port),
     user: process.env.db_user,
