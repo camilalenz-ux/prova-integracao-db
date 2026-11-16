@@ -8,6 +8,7 @@ export async function criarEquipamento(equipamento) {
             calibracao.status
         ]);
 
+     
         return resultado.insertId;
     
 }
